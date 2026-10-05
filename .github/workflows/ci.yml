@@ -17,6 +17,9 @@ jobs:
           php-version: '8.4'
           extensions: ctype, iconv
 
+      - name: Préparer l'environnement Symfony
+        run: cp .env.example .env
+
       - name: Installer les dépendances
         run: composer install --no-interaction --no-progress --prefer-dist
       
