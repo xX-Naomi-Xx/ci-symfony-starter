@@ -5,6 +5,9 @@
 
 .secrets
 
+.artifacts/
+symfony-artifact-r1.tar.gz
+
 /claude/
 
 ###> symfony/framework-bundle ###
@@ -32,4 +35,3 @@
 /public/build/
 ###< symfony/reprise ###
 
-printf 'node_modules/\npublic/build/\n' >> .gitignore.secrets
