@@ -3,6 +3,8 @@
 .env.*
 !.env.example
 
+.secrets
+
 /claude/
 
 ###> symfony/framework-bundle ###
@@ -30,4 +32,4 @@
 /public/build/
 ###< symfony/reprise ###
 
-printf 'node_modules/\npublic/build/\n' >> .gitignore
+printf 'node_modules/\npublic/build/\n' >> .gitignore.secrets
